@@ -3,7 +3,11 @@
 - [Develop an App with Vertex AI Gemini 1.0 Pro](#develop-an-app-with-vertex-ai-gemini-10-pro)
   - [Introducción](#introducción)
   - [Objetivos](#objetivos)
+  - [Configura tu entorno](#configura-tu-entorno)
   - [Tarea 1: Configura tu entorno y proyecto](#tarea-1-configura-tu-entorno-y-proyecto)
+  - [Tarea 2: Configura el entorno de la aplicación](#tarea-2-configura-el-entorno-de-la-aplicación)
+    - [Confirma que Cloud Shell está autorizado](#confirma-que-cloud-shell-está-autorizado)
+    - [Crea el directorio de la aplicación](#crea-el-directorio-de-la-aplicación)
   
 ## Introducción
 
@@ -29,6 +33,16 @@ En este laboratorio, aprenderás a realizar las siguientes tareas:
 - Desarrollar código para interactuar con el modelo Gemini 1.0 Pro Vision (gemini-pro-vision) utilizando la API de Vertex AI Gemini.
 - Contenerizar tu aplicación, desplegarla y probarla en Cloud Run.
 
+## Configura tu entorno
+
+Antes de comenzar con el laboratorio, es necesario que configures tu entorno local con el SDK proporcionado por Google Cloud.
+
+1. Dirigite al siguiente enlace <https://cloud.google.com/sdk?hl=es-419> para descargar el SDK de Google Cloud
+2. Haz clic en el botón "Instala Google Cloud CLI"
+![alt text](<img/1.png>)
+3. Sigue los pasos de instalación según tu sistema operativo:
+![alt text](<img/2.png>)
+
 ## Tarea 1: Configura tu entorno y proyecto
 
 1. Inicia sesión en la consola de Google Cloud con tus credenciales del laboratorio y abre la ventana del terminal de Cloud Shell.
@@ -46,4 +60,32 @@ En este laboratorio, aprenderás a realizar las siguientes tareas:
 
     ```bash
     gcloud services enable cloudbuild.googleapis.com cloudfunctions.googleapis.com run.googleapis.com logging.googleapis.com storage-component.googleapis.com aiplatform.googleapis.com
+    ```
+
+## Tarea 2: Configura el entorno de la aplicación
+
+En esta tarea, configurarás un entorno virtual de Python e instalarás las dependencias de la aplicación.
+
+### Confirma que Cloud Shell está autorizado
+
+1. Para confirmar que Cloud Shell está autorizado, en Cloud Shell, ejecuta el siguiente comando:
+
+    ```bash
+    gcloud auth list
+    ```
+
+2. Si se te solicita autorizar Cloud Shell, haz clic en **Autorizar**
+
+### Crea el directorio de la aplicación
+
+1. Para crear el directorio de la aplicación, ejecuta el siguiente comando:
+
+    ```bash
+    mkdir ~/gemini-app
+    ```
+
+2. Cambia al directorio `~/gemini-app` con el siguiente comando:
+
+    ```bash
+    cd ~/gemini-app
     ```
