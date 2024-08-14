@@ -32,7 +32,7 @@ En este laboratorio, aprenderás a realizar las siguientes tareas:
 ## Tarea 1: Configura tu entorno y proyecto
 
 1. Inicia sesión en la consola de Google Cloud con tus credenciales del laboratorio y abre la ventana del terminal de Cloud Shell.
-&nbsp;
+
 2. Para establecer las variables de entorno de tu ID de proyecto y región, en Cloud Shell, ejecuta los siguientes comandos:
 
     ```bash
@@ -43,7 +43,6 @@ En este laboratorio, aprenderás a realizar las siguientes tareas:
     ```
 
 3. Para poder utilizar varios servicios de Google Cloud en este laboratorio, debes habilitar algunas API:
-&nbsp;
 
     ```bash
     gcloud services enable cloudbuild.googleapis.com cloudfunctions.googleapis.com run.googleapis.com logging.googleapis.com storage-component.googleapis.com aiplatform.googleapis.com
