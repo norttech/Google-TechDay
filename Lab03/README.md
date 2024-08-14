@@ -39,10 +39,13 @@ Antes de comenzar con el laboratorio, es necesario que configures tu entorno loc
 
 1. Dirigite al siguiente enlace <https://cloud.google.com/sdk?hl=es-419> para descargar el SDK de Google Cloud
 2. Haz clic en el botón "Instala Google Cloud CLI"
+&nbsp;
 ![alt text](<img/1.png>)
-3. Sigue los pasos de instalación según tu sistema operativo:
+&nbsp;
+1. Sigue los pasos de instalación según tu sistema operativo:
+&nbsp;
 ![alt text](<img/2.png>)
-
+&nbsp;
 ## Tarea 1: Configura tu entorno y proyecto
 
 1. Inicia sesión en la consola de Google Cloud con tus credenciales del laboratorio y abre la ventana del terminal de Cloud Shell.
