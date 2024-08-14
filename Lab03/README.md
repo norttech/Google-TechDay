@@ -41,11 +41,11 @@ Antes de comenzar con el laboratorio, es necesario que configures tu entorno loc
 
 2. Haz clic en el botón "Instala Google Cloud CLI"
 
-![alt text](<img/1.png>)
+    ![alt text](<img/1.png>)
 
-1. Sigue los pasos de instalación según tu sistema operativo:
+3. Sigue los pasos de instalación según tu sistema operativo:
 
-![alt text](<img/2.png>)
+    ![alt text](<img/2.png>)
 
 ## Tarea 1: Configura tu entorno y proyecto
 
