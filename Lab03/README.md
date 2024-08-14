@@ -47,6 +47,16 @@ Antes de comenzar con el laboratorio, es necesario que configures tu entorno loc
 
     ![alt text](<img/2.png>)
 
+4. Una vez hayas descargado e instalado el SDK de Google Cloud en tu computadora, abre tu terminal y ejecuta el siguiente comando:
+
+    ```bash
+    gcloud init
+    ```
+
+    Si se te solicita iniciar sesión, asegúrate de tener la sesión activa en tu navegador de tu cuenta de Google Console.
+
+    > Puedes iniciar sesión en tu cuenta de Google Console a través del siguiente enlace <https://console.cloud.google.com/?hl=es>
+
 ## Tarea 1: Configura tu entorno y proyecto
 
 1. Inicia sesión en la consola de Google Cloud con tus credenciales del laboratorio y abre la ventana del terminal de Cloud Shell.
