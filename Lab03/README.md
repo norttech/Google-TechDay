@@ -93,33 +93,45 @@ Antes de comenzar con el laboratorio, es necesario que configures tu entorno loc
 
     ![alt text](<img/2.png>)
 
-4. Una vez hayas descargado e instalado el SDK de Google Cloud en tu computadora, abre tu terminal y ejecuta el siguiente comando:
+4. Una vez hayas descargado e instalado el SDK de Google Cloud en tu computadora, verifica la instalación. Abre tu terminal y ejecuta el siguiente comando:
 
     ```bash
-    gcloud init
+    gcloud --version
+    ```
+
+5. Verifica que estás autenticado. Ejecuta el siguiente comando en tu terminal:
+
+    ```bash
+    gcloud auth login
     ```
 
     Si se te solicita autenticarte, asegúrate de tener la sesión activa en tu navegador de tu cuenta de Google Console.
 
     > Puedes iniciar sesión en tu cuenta de Google Console a través del siguiente enlace <https://console.cloud.google.com/?hl=es>
 
-5. Al ejecutar el comando, se te pedirá que elijas la configuración deseada (configuración por defecto o crear nueva configuración). Para este laboratorio, selecciona la opción 2: "Crear nueva configuración".
+6. Una vez te hayas autenticado, ejecuta el siguiente comando para comenzar con la configuración:
+
+    ```bash
+    gcloud init
+    ```
+
+7. Al ejecutar el comando, se te pedirá que elijas la configuración deseada (configuración por defecto o crear nueva configuración). Para este laboratorio, selecciona la opción 2: "Crear nueva configuración".
 
     ![alt text](<img/3.png>)
 
-6. Al ingresar la opción correspondiente, deberás añadir un nombre para esa configuración (elige un nombre de tu preferencia).
+8. Al ingresar la opción correspondiente, deberás añadir un nombre para esa configuración (elige un nombre de tu preferencia).
 
     ![alt text](<img/4.png>)
 
-7. Luego, selecciona tu cuenta donde iniciaste sesión en Google Console.
+9. Luego, selecciona tu cuenta donde iniciaste sesión en Google Console.
 
     ![alt text](<img/5.png>)
 
-8. Por último, selecciona el proyecto en el que trabajarás para desarrollar el laboratorio.
+10. Por último, selecciona el proyecto en el que trabajarás para desarrollar el laboratorio.
 
     ![alt text](<img/6.png>)
 
-9. Al terminar la configuración, se debería de obtener un resultado como el siguiente:
+11. Al terminar la configuración, se debería de obtener un resultado como el siguiente:
 
     ![alt text](<img/7.png>)
 
