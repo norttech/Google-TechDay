@@ -92,6 +92,16 @@ Antes de comenzar con el laboratorio, es necesario que configures tu entorno loc
    gcloud services enable cloudbuild.googleapis.com cloudfunctions.googleapis.com run.googleapis.com logging.googleapis.com storage-component.googleapis.com aiplatform.googleapis.com
    ```
 
+3. Proporciona credenciales para la aplicación. Ejecuta el siguiente comando en tu terminal:
+
+   ```bash
+   gcloud auth application-default login
+   ```
+
+   > Este comando abrirá una pestaña del navegador para autenticarte. Asegúrate de tener la sesión activa en tu cuenta de Google Console. 
+   
+   > Esta autenticación es necesaria para que la aplicación pueda acceder a los servicios de Google Cloud. En este caso se utilizará para acceder a Firestore.
+
 ## 1. Configurar Firestore en Google Cloud
 
 - En Google Cloud Console, navega a **Firestore**.
