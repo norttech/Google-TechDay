@@ -552,3 +552,45 @@ Escribe /customers y presiona Enter.
 Actualiza la pestaña de tu navegador y deberías ver la siguiente lista de clientes migrados con éxito:
 
 ![alt text](img/14.png) 
+
+# Despliegue de las Aplicaciones
+
+## Customer API
+
+En Firebase aparece el nombre de la colección, dicho nombre debe ser digitado en esta variable:
+
+Dentro del folder customer-api/index.js
+
+```bash
+const COLLECTION = ''
+```
+
+Para desplegar se ejecutará el siguiente comando:
+
+```bash
+gcloud run deploy
+```
+
+> Selecciona la zona. Por ejemplo la zona 32. 
+
+Se asegura que la aplicación este disponible publicamente digitando la letra "Y" cuando se le solicite.
+
+## Customer Frontend
+
+Una vez se despliega el customer-api se le proporcionará una URL con el API publica.
+
+Dicha API publica debe ser copiada y pegada en esta direccion:
+
+Dentro del folder customer-frontend/src/api/customer.ts
+
+```bash
+const SERVER_URL = '';
+```
+
+Para desplegar se seguirán los pasos anteriores.
+
+```bash
+gcloud run deploy --port 80
+```
+
+> El comando es el mismo que el paso anterior, únicamente se agregó el puerto 80.
